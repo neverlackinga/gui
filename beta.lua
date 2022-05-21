@@ -21,11 +21,11 @@ end)
 main6:NewButton("Set 2", "mage jump ninja fall : )", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cynhook/dahood/main/mage.lua"))()
 end)
-local main14 = main2:NewTab("settings")
-local main15 = main14:NewSection("keybind")
+local main14 = main2:NewTab("misc")
+local main15 = main14:NewSection("menu key")
 main15:NewKeybind(
     "Keybind Gui Toggle",
     "h",
-    Enum.KeyCode.RightShift,
+    Enum.KeyCode.RightControl,
     function()
 	main1:ToggleUI()
