@@ -10,6 +10,7 @@ local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/
 local main2 = main1.CreateLib("Neverlockin", "DarkTheme")
 local main3 = main2:NewTab("Legitbot")
 local main4 = main3:NewSection("streamproof")
-Section:NewButton("steamproof silent", "low fov ( 15 )", function()
+main4:NewLabel("LabelText")
+main4:NewButton("steamproof silent", "low fov ( 15 )", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/15lock"))()
 end)
