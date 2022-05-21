@@ -29,3 +29,4 @@ main15:NewKeybind(
     Enum.KeyCode.RightControl,
     function()
 	main1:ToggleUI()
+end)
