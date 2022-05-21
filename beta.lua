@@ -2,8 +2,8 @@
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Neverlackin BETA 0.1v",
-	Text = "Thanks forbuying Neverlackin",
+	Title = "Neverlockin BETA 0.1v",
+	Text = "Thanks forbuying Neverlockin",
 		}
 game.StarterGui:SetCore(
     "SendNotification",
