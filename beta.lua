@@ -3,11 +3,16 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "Neverlackin BETA 0.1v",
-	Text = "a admin.",
+	Text = "Thanks forbuying Neverlackin",
+		game.StarterGui:SetCore(
+    "SendNotification",
+    {
+	Title = "Whitelist",
+	Text = "Whitelist passed!",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
-local main2 = main1.CreateLib("Neverlockin", "DarkTheme")
+local main2 = main1.CreateLib("Neverlackin BETA 0.1v", "DarkTheme")
 local main3 = main2:NewTab("Legitbot")
 local main4 = main3:NewSection("streamproof")
 main4:NewButton("steamproof silent", "low fov ( 15 )", function()
