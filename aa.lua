@@ -61,7 +61,7 @@ local themeStyles = {
         Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
         TextColor = Color3.fromRGB(255,255,255),
-        ElementColor = Color3.fromRGB(3, 168,	245)
+        ElementColor = Color3.fromRGB(3, 168, 245)
     },
     LightTheme = {
         SchemeColor = Color3.fromRGB(150, 150, 150),
