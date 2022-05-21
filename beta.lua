@@ -5,6 +5,7 @@ game.StarterGui:SetCore(
 	Title = "Neverlackin BETA 0.1v",
 	Text = "Thanks forbuying Neverlackin",
 		}
+game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "Whitelist",
