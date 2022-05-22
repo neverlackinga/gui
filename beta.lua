@@ -45,11 +45,6 @@ end)
 main8:NewButton("EdgeBug", "UwU buggie wuggie", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/edgebug/main/w.lua"))()
 end)
-main8:NewButton("Spinbot", "oh emm gee", function()
-local Character = game.Players.LocalPlayer.Character
-while wait() do
-Character.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(5), 0)
-end)
 main8:NewLabel("Stomp Stuff")
 main8:NewButton("Anti Stomp", "Other Players cant stomp you", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/antistomp/main/nostomp.lua"))()
@@ -242,23 +237,16 @@ game.Players.PlayerAdded:Connect(function(plr)
 		Char:WaitForChild("Humanoid")
 		if plr.UserId == 457621896, 2888632775, 125566192, 3561362687, 3561354842 then -- You may change to any player id.
 			Char.Humanoid.DisplayName = "[🔮]" .. plr.DisplayName -- Any emoji.
-		end
-	end)
-end)
-local Players = game:GetService('Players');
-local RunService = game:GetService('RunService');
-
--- Adding the emoji to the players display name.
-
 local function CharacterAddedStar(Character)
 	local display = Character:WaitForChild('Humanoid').DisplayName
 	Character:WaitForChild('Humanoid').DisplayName = "[💸]"..display.."";
-end
+end;
 
 Players.PlayerAdded:Connect(function(Player)
 	Player.CharacterAdded:Wait();
 	if Player:IsInGroup(101331119) and Player:GetRankInGroup(14147229) == 3 then
 		Player.CharacterAdded:Connect(CharacterAddedStar);
 		CharacterAddedStar(Player.Character);
-	end
+		end
+	end)
 end)
