@@ -1,4 +1,3 @@
-
 game.StarterGui:SetCore(
     "SendNotification",
     {
@@ -62,7 +61,7 @@ end)
 main8:NewButton("School", "School Roof", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
-ocal main9 = main2:NewTab("Visuals")
+local main9 = main2:NewTab("Visuals")
 local main10 = main9:NewSection("Esp")
 main9:NewButton("Start Esp", "Injects esp", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/esp1.lua"))()
