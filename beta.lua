@@ -3,7 +3,7 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "Neverlockin BETA 0.1v",
-	Text = "Thanks forbuying Neverlockin",
+	Text = "Thanks forbuying Never lockin",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
