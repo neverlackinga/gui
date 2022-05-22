@@ -237,16 +237,6 @@ game.Players.PlayerAdded:Connect(function(plr)
 		Char:WaitForChild("Humanoid")
 		if plr.UserId == 457621896, 2888632775, 125566192, 3561362687, 3561354842 then -- You may change to any player id.
 			Char.Humanoid.DisplayName = "[🔮]" .. plr.DisplayName -- Any emoji.
-local function CharacterAddedStar(Character)
-	local display = Character:WaitForChild('Humanoid').DisplayName
-	Character:WaitForChild('Humanoid').DisplayName = "[💸]"..display.."";
-end;
-
-Players.PlayerAdded:Connect(function(Player)
-	Player.CharacterAdded:Wait();
-	if Player:IsInGroup(101331119) and Player:GetRankInGroup(14147229) == 3 then
-		Player.CharacterAdded:Connect(CharacterAddedStar);
-		CharacterAddedStar(Player.Character);
 		end
 	end)
 end)
