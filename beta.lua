@@ -121,6 +121,17 @@ main10:NewButton("Enable Esp", "Enables esp", function()
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
 ESP:Toggle(true)
 end)
+local main14 = main2:NewTab("Auto Buys")
+local main15 = main14:NewSection("Auto Buy")
+main10:NewButton("Armour", "Buys armour", function()
+ local plr = game.Players.LocalPlayer
+	local savedarmourpos = plr.Character.HumanoidRootPart.Position
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(-938.476685, -25.2498264, 570.100159, -0.0353576206, 9.85617206e-08, -0.999374807, -2.69198441e-09, 1, 9.871858e-08, 0.999374807, 6.18077589e-09, -0.0353576206)
+	wait(.2)
+
+	fireclickdetector(game.Workspace.Ignored.Shop['[High-Medium Armor] - $2300'].ClickDetector)
+	plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedarmourpos)
+end)
 local main14 = main2:NewTab("Misc")
 local main15 = main14:NewSection("Menu key")
 main15:NewKeybind(
