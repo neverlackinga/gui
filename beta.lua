@@ -5,6 +5,7 @@ game.StarterGui:SetCore(
 	Text = "Thanks forbuying Never lockin",
 }
 )
+local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
 local main2 = main1.CreateLib("Neverlackin BETA 0.5v", "DarkTheme")
 local main3 = main2:NewTab("Aimbot")
 local main4 = main3:NewSection("Streamproof")
@@ -230,4 +231,3 @@ end)
 local main15 = main14:NewSection("Trash Talk")
 main15:NewButton("Trash Talk", "key is U", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/neverlackinga/trashtalk/main/lol.lua'))()
-end)
