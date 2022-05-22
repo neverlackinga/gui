@@ -66,7 +66,7 @@ local main10 = main9:NewSection("Esp")
 main10:NewButton("Start Esp", "Injects esp", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
 end)
-main10:NewToggle("Enable Esp", "Enables esp", function(state)
+main10:NewToggle("Toggle Esp", "Enables / Disables esp", function(state)
     if state then
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
 ESP:Toggle(true)
