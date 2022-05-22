@@ -47,6 +47,11 @@ end)
 main8:NewButton("EdgeBug", "UwU buggie wuggie", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/edgebug/main/w.lua"))()
 end)
+main8:NewButton("Spinbot", "oh emm gee", function()
+local Character = game.Players.LocalPlayer.Character
+while wait() do
+Character.HumanoidRootPart.CFrame = Character.HumanoidRootPart.CFrame * CFrame.Angles(0, math.rad(5), 0)
+end)
 main8:NewLabel("Stomp Stuff")
 main8:NewButton("Anti Stomp", "Other Players cant stomp you", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/antistomp/main/nostomp.lua"))()
