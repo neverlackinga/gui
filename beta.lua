@@ -1,5 +1,3 @@
-getgenv().text = "NeverLocking"
-loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/gamesensewatermark.lua")()
 game.StarterGui:SetCore(
     "SendNotification",
     {
@@ -263,4 +261,6 @@ Players.PlayerAdded:Connect(function(Player)
 		Player.CharacterAdded:Connect(CharacterAddedStar);
 		CharacterAddedStar(Player.Character);
 	end
-end);
+end)
+	getgenv().text = "NeverLocking"
+loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/gamesensewatermark.lua")()
