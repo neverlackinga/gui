@@ -44,7 +44,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/edgebug
 end)
 main8:NewLabel("AntiLock")
 main8:NewButton("AntiLock", "Key is Y", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/antilock/main/y.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/antilock/main/cxk.lua"))()
 end)
 main8:NewLabel("Teleports")
 main8:NewButton("DB", "DB mountian", function()
