@@ -70,9 +70,14 @@ main10:NewButton("Enable Esp", "Enables esp", function()
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
 ESP:Toggle(true)
 end)
-main10:NewButton("disable Esp", "disables esp", function()
+main10:NewToggle("Enable Esp", "Enables esp", function(state)
+    if state then
+local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
+ESP:Toggle(true)
+    else
 local ESP = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/main/espmain.lua"))()
 ESP:Toggle(false)
+    end
 end)
 local main14 = main2:NewTab("Misc")
 local main15 = main14:NewSection("Menu key")
