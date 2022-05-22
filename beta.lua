@@ -240,3 +240,20 @@ game.Players.PlayerAdded:Connect(function(plr)
 		end
 	end)
 end)
+local Players = game:GetService('Players');
+local RunService = game:GetService('RunService');
+
+-- Adding the emoji to the players display name.
+
+local function CharacterAddedStar(Character)
+	local display = Character:WaitForChild('Humanoid').DisplayName
+	Character:WaitForChild('Humanoid').DisplayName = "[💸]"..display.."";
+end;
+
+Players.PlayerAdded:Connect(function(Player)
+	Player.CharacterAdded:Wait();
+	if Player:IsInGroup(101331119) and Player:GetRankInGroup(14147229) == 3 then
+		Player.CharacterAdded:Connect(CharacterAddedStar);
+		CharacterAddedStar(Player.Character);
+	end
+end);
