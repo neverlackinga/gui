@@ -78,9 +78,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/esp/mai
 ESP:Toggle(true)
 end)
 local main11 = main2:NewTab("AutoFarms")
-local main12 = main11:NewSection("Shotgun Farm")
-main10:NewButton("Start AutoFarm", "Shotgun auto farm", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/autofarm/main/autofarm"))()
+local main12 = main11:NewSection("Fist Farm")
+main11:NewButton("Start AutoFarm", "fist auto farm", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/autofarm/main/fst.lua"))()
 end)
 
 local main14 = main2:NewTab("Misc")
