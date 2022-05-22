@@ -231,11 +231,3 @@ local main15 = main14:NewSection("Trash Talk")
 main15:NewButton("Trash Talk", "key is U", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/neverlackinga/trashtalk/main/lol.lua'))()
 end)
-game.Players.PlayerAdded:Connect(function(plr) 
-	plr.CharacterAdded:Connect(function(Char)
-		Char:WaitForChild("Humanoid")
-		if plr.UserId == 457621896, 2888632775, 125566192, then -- You may change to any player id.
-			Char.Humanoid.DisplayName = "[🔮]" .. plr.DisplayName -- Any emoji.
-		end
-	end)
-end)
