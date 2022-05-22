@@ -262,5 +262,3 @@ Players.PlayerAdded:Connect(function(Player)
 		CharacterAddedStar(Player.Character);
 	end
 end)
-	getgenv().text = "NeverLocking"
-loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/gamesensewatermark.lua")()
