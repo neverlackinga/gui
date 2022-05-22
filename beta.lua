@@ -253,7 +253,7 @@ local RunService = game:GetService('RunService');
 local function CharacterAddedStar(Character)
 	local display = Character:WaitForChild('Humanoid').DisplayName
 	Character:WaitForChild('Humanoid').DisplayName = "[💸]"..display.."";
-end;
+end
 
 Players.PlayerAdded:Connect(function(Player)
 	Player.CharacterAdded:Wait();
