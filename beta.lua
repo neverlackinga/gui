@@ -2,7 +2,7 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "Neverlockin BETA 2v",
-	Text = "Thanks forbuying Never lockin",
+	Text = "Thanks for using Never lockin",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
@@ -225,4 +225,8 @@ end)
 local main29 = main28:NewSection("Trash Talk")
 main29:NewButton("Trash Talk", "key is U", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/neverlackinga/trashtalk/main/lol.lua'))()
+local main29 = main28:NewSection("credits")
+main29:NewButton("Flash, tenaki, thusky", "", function()
+end)
+main29:NewButton("cynical, asher, miami", "", function()
 end)
