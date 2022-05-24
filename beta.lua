@@ -6,7 +6,7 @@ game.StarterGui:SetCore(
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
-local main2 = main1.CreateLib("Neverlackin BETA 2v", "DarkTheme")
+local main2 = main1.CreateLib("Neverlockin BETA 2v", "DarkTheme")
 local main3 = main2:NewTab("Aimbot")
 local main4 = main3:NewSection("Streamproof")
 main4:NewButton("stream proof silent", "stream proof :)", function()
