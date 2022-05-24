@@ -225,6 +225,7 @@ end)
 local main29 = main28:NewSection("Trash Talk")
 main29:NewButton("Trash Talk", "key is U", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/neverlackinga/trashtalk/main/lol.lua'))()
+end)
 local main29 = main28:NewSection("credits")
 main29:NewButton("Flash, tenaki, thusky", "a", function()
 				
