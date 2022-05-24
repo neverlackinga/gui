@@ -17,6 +17,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/
 end)
 
 main4:NewLabel("Rage Aimbot")
+end)
+main4:NewButton("Nl tracer", "key is q", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/NLthus.lua"))()
+end)
 main4:NewButton("Rage Silent", "Key is Q", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/rage1.lua"))()
 end)
