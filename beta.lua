@@ -1,12 +1,12 @@
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Neverlockin BETA 2v",
-	Text = "Thanks for using Never lockin",
+	Title = "Neverlocking.wtf BETA RaGe!",
+	Text = "Thanks for using Never locking",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
-local main2 = main1.CreateLib("Neverlockin BETA 2v", "DarkTheme")
+local main2 = main1.CreateLib("Neverlocking.wtf", "DarkTheme")
 local main3 = main2:NewTab("Aimbot")
 main4:NewLabel("Rage Aimbot")
 main4:NewButton("Nl tracer", "key is q", function()
