@@ -1,14 +1,15 @@
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Neverlocking.wtf BETA RaGe!",
+	Title = "Neverlocking.wtf rwage UwU",
 	Text = "Thanks for using Never locking",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
-local main2 = main1.CreateLib("Neverlocking.wtf", "DarkTheme")
+local main2 = main1.CreateLib("Neverlockin Rage", "Midnight")
 local main3 = main2:NewTab("Aimbot")
-main4:NewLabel("Rage Aimbot")
+local main8 = main7:NewSection("a-aimbot")
+main4:NewLabel("wagebot Aimbot")
 main4:NewButton("Nl tracer", "key is q", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/NLthus.lua"))()
 end)
@@ -20,9 +21,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/
 end)
 main4:NewButton("Flash box", "key is q", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/mango.lua"))()
-end)
-main4:NewButton("OMG JJSPLOIT", "key is q", function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/jj.lua"))()
 end)
 local main5 = main2:NewTab("Animation changer")
 local main6 = main5:NewSection("Animation changer")
@@ -109,10 +107,9 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(_G.saved
 end)
 local main9 = main2:NewTab("Visuals")
 local main10 = main9:NewSection("Esp")
-main10:NewButton("Start menu", "", function()
+main10:NewButton("Start Esp", "opens esp menu", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/cynhook/GGV1/main/ggware.lua"))()
 end)
-
 local main11 = main2:NewTab("Auto Buys")
 local main12 = main11:NewSection("Auto Buy")
 main12:NewButton("Armour", "Buys armour", function()
