@@ -1,15 +1,19 @@
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "Neverlocking.wtf rwage UwU",
-	Text = "Thanks for using Never locking",
+	Title = "Neverlockin BETA 2v",
+	Text = "Thanks for using Never lockin",
 }
 )
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/gui/main/aa.lua"))()
-local main2 = main1.CreateLib("Neverlockin Rage", "Midnight")
+local main2 = main1.CreateLib("Neverlockin BETA 2v", "DarkTheme")
 local main3 = main2:NewTab("Aimbot")
-local main8 = main7:NewSection("a-aimbot")
-main4:NewLabel("wagebot Aimbot")
+local main4 = main3:NewSection("hi")
+main4:NewButton("UwUU", "uwu", function()
+
+end)
+
+main4:NewLabel("Rage Aimbot")
 main4:NewButton("Nl tracer", "key is q", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/NLthus.lua"))()
 end)
@@ -216,10 +220,14 @@ local main29 = main28:NewSection("Trash Talk")
 main29:NewButton("Trash Talk", "key is U", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/neverlackinga/trashtalk/main/lol.lua'))()
 end)
-local main29 = main28:NewSection("credits")
-main29:NewButton("Flash, tenaki, thusky", "a", function()
+local main29 = main28:NewSection("esp")
+main29:NewButton("esp", "a", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/cynhook/GGV1/main/ggware.lua'))()				
+end)
+local main29 = main28:NewSection("creds")
+main29:NewButton("cynical, asher, miami", "a", function()
 				
 end)
-main29:NewButton("cynical, asher, miami", "a", function()
+main29:NewButton("Flash, tenaki, thusky", "a", function()
 				
 end)
