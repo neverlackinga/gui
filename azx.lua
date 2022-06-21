@@ -59,7 +59,7 @@ local CC = game:GetService"Workspace".CurrentCamera
     end)    
 
 mouse.KeyDown:Connect(function(k)
-    if k ~= "c" then return end
+    if k ~= "q" then return end
     if enabled then
         enabled = false
         guimain[Plr.Name].Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
