@@ -26,7 +26,7 @@ local CC = game:GetService"Workspace".CurrentCamera
     function noob(player)
         local character
         repeat wait() until player.Character
-        local handler = makemarker(guimain, player.Character:WaitForChild("HumanoidRootPart"), Color3.fromRGB(107, 184, 255), 0.3, 3)
+        local handler = makemarker(guimain, player.Character:WaitForChild("HumanoidRootPart"), Color3.fromRGB(128, 0, 128), 0.3, 3)
         handler.Name = player.Name
         player.CharacterAdded:connect(function(Char) handler.Adornee = Char:WaitForChild("HumanoidRootPart") end)
 
@@ -55,7 +55,7 @@ local CC = game:GetService"Workspace".CurrentCamera
         placemarker.CanCollide = false
         placemarker.Size = Vector3.new(8, 8, 8)
         placemarker.Transparency = 0.75
-        makemarker(placemarker, placemarker, Color3.fromRGB(82, 112, 234), 0.40, 0)
+        makemarker(placemarker, placemarker, Color3.fromRGB(128, 0, 128), 0.40, 0)
     end)    
 
 mouse.KeyDown:Connect(function(k)
